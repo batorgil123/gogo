@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(235, 248, 239);
+}
+   
+#header-container{
+    width: 100vw;
+    height: 88.914;
+    background-color: rgb(235, 248, 239);
+    display: flex;
+    justify-content: center;
+}
+.gogo-img{
+    width: 119px;
+    height: 38.91px;
+}
+#header-box{
+    width: 1100px;
+    height: 38.914px;
+    background-color: rgb(235, 248, 239);
+    display: flex;
+    margin-top: 30px;
+}
+#header-list-div{
+    width: 556.34px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 248, 239);
+    margin-left: 20px;
+}
+.header-bar{
+    width: 745.34px;
+    height: 38.91px;
+    display: flex;
+    align-items: center;
+}
+#list{
+    width: 556px;
+    height: 22px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.search-bar-img{
+    width: 20px;
+    height: 20px;
+}
+.search-bar{
+    width: 20px;
+    height: 24.5px;
+    display: flex;
+    padding-left: 15px;
+}
+#div-navbar{
+    height: 42px;
+    width: 270.52px;
+    background-color: rgb(235, 248, 239);
+    display: flex;
+    margin-left: 84.141px;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-first-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.navbar-second-img{
+    width: 20px;
+    height: 20px;
+    
+    margin-right: 5px;
+}
+#div-navbar-first{
+    width: 70px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 550;
+    font-size:larger;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+}
+#div-navbar-second{
+    font-weight: 550;
+    font-size:larger;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+#div-navbar-third{
+    font-weight: 550;
+    font-size:larger;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 83px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.navbar-third-symbol1{
+    color: rgb(167, 216, 68);
+    display: flex;
+    margin: 0px;
+}
+.navbar-third-symbol2{
+    display: flex;
+    color: rgb(193, 183, 183);
+    margin: 0px;
+}   
+.navbar-third-symbol3{
+    display: flex;
+    margin: 0px;
+}
+#div-highlight{
+    width: 100vw;
+    height: 763px;
+    display: flex;
+    margin-top: 5px;
+    background-color: rgb(235, 248, 239);
+
+    justify-content: center;
+}
+#highlight-container{
+    width: 1100px;
+    height: 748px;
+    background-color: rgb(235, 248, 239);
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+#top-highlight{
+    width: 1100px;
+    height: 385px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 248, 239);
+    
+}
+#highlight-bottom{
+    width: 1100px;
+    height: 283px;
+    display: flex;
+    background-color: rgb(235, 248, 239);
+    margin-top: 30px;
+    margin-bottom:  50px;
+}
+#box-1{
+    background-color:rgb(235, 248, 239);
+    width: 502.8px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 40px;
+}
+.img-top-hl{
+    width: 542.5px;
+    height: 385px;  
+    border-radius: 6px;
+    margin-left:  15px;
+    transition: transform 0.3s;
+}
+.img-top-hl:hover{
+    transform: scale(1.1);
+}
+#button-top{
+    height: 30px;
+    width: 73.02px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: hidden;
+    color: white;
+    background-color: olivedrab;
+}
+.share-icon{
+    width: 20.453px;
+    height: 20px;
+}
