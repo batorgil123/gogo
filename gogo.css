@@ -161,6 +161,7 @@ body{
     width: 1100px;
     height: 283px;
     display: flex;
+    justify-content: space-between;
     background-color: rgb(235, 248, 239);
     margin-top: 30px;
     margin-bottom:  50px;
@@ -178,11 +179,26 @@ body{
     width: 542.5px;
     height: 385px;  
     border-radius: 6px;
-    margin-left:  15px;
     transition: transform 0.3s;
+    object-fit: cover;
 }
-.img-top-hl:hover{
+.img-top-hl:hover {
     transform: scale(1.1);
+}
+#img-top-div{
+    width: 542.5px;
+    height: 385px;
+    display: flex;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.black-box{
+    background-color: black;
+    width: 542.5px;
+    height: 385px;
+    border-radius: 6px;
+    opacity: 1;
+    transition: transform 0.3s;
 }
 #button-top{
     height: 30px;
@@ -198,4 +214,61 @@ body{
 .share-icon{
     width: 20.453px;
     height: 20px;
+    opacity: 0.3;
+}
+#bot-box1{
+    width: 278.75px;
+    height: 283px;
+    display: flex;
+   
+}
+#bot-box2{
+    width: 278.75px;
+    height: 283px;
+    display: flex;
+   
+}
+#bot-box3{
+    width: 278.75px;
+    height: 283px;
+    display: flex;
+  
+}
+#bot-box4{
+    width: 278.75px;
+    height: 283px;
+    display: flex;
+ 
+}
+.box1-img{
+    width: 263.75px;    
+    height: 175px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.box-share-icon{
+    width: 13px;
+    height: 13px;
+    opacity: 0.5;
+}
+.box4-img{
+    right: 0;
+    border-radius: 8px;
+}
+#box4-div{
+    display: flex;
+}
+.share-icon-container{
+    width: 23.84px;
+    height: 22px;
+    opacity: 0.5;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box1-text{
+    font-weight: 600;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
 }
