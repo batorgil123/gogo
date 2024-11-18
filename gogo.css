@@ -8,10 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
 }
 #main{
     width: 100vw;
+    height: 8088.7px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@ body {
 #header-container {
     width: 100vw;
     height: 88.914;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
 }
@@ -33,7 +34,7 @@ body {
 #header-box {
     width: 1100px;
     height: 38.914px;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     display: flex;
     margin-top: 30px;
 }
@@ -43,7 +44,7 @@ body {
     height: 22px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     margin-left: 20px;
 }
 
@@ -83,7 +84,7 @@ body {
 #div-navbar {
     height: 42px;
     width: 270.52px;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     display: flex;
     margin-left: 84.141px;
 
@@ -160,8 +161,8 @@ body {
     width: 100vw;
     height: 763px;
     display: flex;
-    margin-top: 5px;
-    background-color: rgb(235, 248, 239);
+ 
+    background-color: whitesmoke;
 
     justify-content: center;
 }
@@ -169,7 +170,7 @@ body {
 #highlight-container {
     width: 1100px;
     height: 748px;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     display: flex;
     margin-top: 15px;
     flex-direction: column;
@@ -180,7 +181,7 @@ body {
     height: 385px;
     display: flex;
     align-items: center;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
 
 }
 
@@ -189,13 +190,13 @@ body {
     height: 283px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
 #box-1 {
-    background-color: rgb(235, 248, 239);
+    background-color: whitesmoke;
     width: 502.8px;
     height: 228px;
     display: flex;
@@ -396,33 +397,229 @@ body {
 
 #news-container {
     width: 1100px;
-    height: 3288.370px;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     background-color: white;
 }
-#title-news{
-    width: 104px;
-    height: 27px;
+#news-button-1{
+    width: 103.812px;
+    height: 60.867px;
     display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    border-style: none;
+    background-color: white;
+    align-items: center;
     justify-content: space-between;
+    transition-duration: 0.2s;
 }
 .leaf-img{
     width: 23px;
     height: 26px;
+    margin-bottom: 10px;
+   
 }
 .text-news{
     font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 600;
+    font-weight: 580;
+    font-size: large;
     margin: 0px;
     padding: 0px;
-    margin-top: 5px;
     color: rgb(162, 168, 239);
 }
+#news-button-line{
+    background-color: rgb(212, 206, 206);
+    border-radius: 5px;
+    border-style: none;
+    width: 103.812px;
+    height: 7px;
+}
+.news-buttons{
+    width: 103.812px;
+    height: 29px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-style: none;
+    background-color: white;
+   
+}
+#news-button-1:hover{
+   
+   .text-news{
+    color: blue;
+    transition-duration: 0.5s;
+   }
+   .news-button-text{
+    color: blue;
+    transition-duration: 0.5s;
+   }
+   #news-button-line{
+    background-color: blue;
+    transition-duration: 0.5s;
+   }
+    
+}
+.news-buttons:hover{
+    .news-button-text{
+     color: blue;
+     transition-duration: 0.5s;
+    }
+    #news-button-line{
+     background-color: blue;
+     transition-duration: 0.5s;
+    }
+ }
+.news-button-text{
+    margin: 0px;
+    padding: 0px;
+    color:  rgb(212, 206, 206);
+}
 #title-left{
-    width: 100vw;
-    height: 27px;
+    width: 690px;
+    height: 60.83px;
     display: flex;
     justify-content: start;
     margin-top: 50px;
+    align-items: end;
+}
+#left-news-container{
+    width: 690px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.news-boxes{
+    width: 690px;
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+.news-box-img{
+    width: 210px;
+    height: 150px;
+    object-fit: cover;
+}
+.news-box-text{
+    width: 450px;
+    height: 150px;
+    background-color: blue;
+}
+#footer{
+    width: 100vw;
+    height: 247.648px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-section{
+    width: 1100px;
+    height: 147.648px;
+    background-color: whitesmoke;
+}
+#footer-button-container{
+    width: 1100px;
+    height: 65.25px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    width: 120px;
+    height: 39.23px;
+}
+#logo-div{
+    width: 149.961px;
+    height: 65.25px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+#buttons-div{
+    width: 949.84px;
+    height: 65.25px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+}
+#footer-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-list-items{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    margin-left: 20px;
+}
+.footer-img{
+    width: 15px;
+    height: 20px;
+    padding-right: 15px;
+}
+.footer-list-item-5{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 10px;
+}
+#footer-line{
+    width: 1100px;
+    height: 1px;
+    background-color: rgb(220, 216, 216);
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#footer-end-text{
+    width: 530px;
+    height: 20px;
+    color: black;
+    font-size: smaller;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button-img{
+    width: 20px;
+    height: 20px;
+}
+#end-button-container{
+    width: 530px;
+    height: 21.4px;
+    display: flex;
+    justify-content: end;
+    margin-left: 40px;
+}
+.footer-buttons{
+    border-style: none;
+    background-color: whitesmoke;
+    margin-left: 15px;
+    padding: 0px;
+}
+#footer-end-container{
+    width: 1100px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
 }
