@@ -300,6 +300,7 @@ body {
   height: 175px;
   object-fit: cover;
   border-radius: 8px;
+  transition: 0.3s;
 }
 
 .box-share-icon {
@@ -307,7 +308,41 @@ body {
   height: 13px;
   opacity: 0.5;
 }
-
+.hover-title{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  color: white;
+  transition: 0.3s;
+  opacity: 0;
+}
+.hover-bottom-hl{
+  width: 263.75px;
+  height: 175px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.black-box-1{
+  width: 263.75px;
+  height: 175px;
+  background-color: black;
+  opacity: 0;
+  transition: 0.3s;
+  position: absolute;
+}
+.hover-bottom-hl:hover .box1-img{
+  scale: 1.1;
+}
+.hover-bottom-hl:hover .hover-title{
+  opacity: 1;
+  z-index: 4;
+}
+.hover-bottom-hl:hover .black-box-1{
+  opacity: 0.4;
+}
 .box4-img {
   right: 0;
   border-radius: 8px;
